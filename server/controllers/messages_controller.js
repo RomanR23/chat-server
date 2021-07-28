@@ -22,11 +22,11 @@ module.exports = {
 
         messages[messageIndex] = {
             id: message.id,
-            text: text,
+            text: text || message.text,
             time: message.time
         };
 
-        res.status(200).send(message);
+        res.status(200).send(messages);
     },
 
     delete: (req, res) => {
