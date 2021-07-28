@@ -52,18 +52,7 @@ In this step, we will create a `.gitignore` file so our `node_modules` folder do
 * Add `node_modules` to the file.
 
 ### Solution
-
-<details>
-
-<summary> <code> .gitignore </code> </summary>
-
-```
-node_modules
-```
-
-</details>
-
-## Step 3
+awd
 
 ### Summary
 
